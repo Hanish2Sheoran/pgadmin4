@@ -29,6 +29,7 @@ if len(sys.argv) == 1:
     sys.exit(1)
 
 args = parser.parse_args()
+print(args)
 
 # Configuration
 
